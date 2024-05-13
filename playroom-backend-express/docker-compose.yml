@@ -1,0 +1,13 @@
+version: '1'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - '8094:8094'
+    env_file:
+      - .env
+    volumes:
+      - ./src/db:/usr/src/app/src/db
