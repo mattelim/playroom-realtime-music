@@ -2,6 +2,8 @@
 
  Playroom is a real-time full-stack music Player App built on Next.js, Express.js, MongoDB and YJS. This was a 2.5-day speed build.
 
+![](https://github.com/mattelim/playroom-realtime-music/blob/main/screenshot_playroom.png)
+
 #### Stack Details
 
 Frontend
